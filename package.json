@@ -1,0 +1,33 @@
+{
+  "name": "cftc-ratio",
+  "version": "1.0.0",
+  "description": "futures CFTC Non-Commercial ratio",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register",
+    "build": "babel lib -d dist",
+    "start": "npm run build && nodemon dist/index.js",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslavchev/cftc-ratio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aslavchev/cftc-ratio/issues"
+  },
+  "homepage": "https://github.com/aslavchev/cftc-ratio#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
