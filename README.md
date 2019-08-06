@@ -2,6 +2,13 @@
 futures CFTC Non-Commercial ratio
 
 Project goal:
-Calculate CFTC Non-Comercials buyer/sellers ratio.
+Calculate CFTC Non-Comercials buyer/sellers ratio and display in a  Website
 
-Download comma delimited data from https://www.cftc.gov/dea/newcot/deafut.txt, calculate the ratio and display on web.
+1. Download comma delimited data from https://www.cftc.gov/dea/newcot/deafut.txt, 
+2. Calculate the ratio 
+3. Display the result on a website.
+   Result to be displayed in a form of table with sections:
+   - Currencies
+   - Commopdities
+   - Indexes 
+   - Treasuties
